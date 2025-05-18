@@ -21,7 +21,7 @@ Preprocessing steps included:
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Text Embeddings
 - **Model**: `all-MiniLM-L6-v2` from [Sentence-Transformers](https://www.sbert.net/)
@@ -37,7 +37,7 @@ Preprocessing steps included:
 
 ---
 
-## 📊 Results
+## Results
 
 | Method   | Clusters Found | Silhouette Score |
 |----------|----------------|------------------|
@@ -48,7 +48,7 @@ DBSCAN provided more meaningful separation and required no manual tuning of `n_c
 
 ---
 
-## 🛠️ Tools and Libraries
+## Tools and Libraries
 
 - `sentence-transformers`
 - `scikit-learn`
@@ -58,7 +58,7 @@ DBSCAN provided more meaningful separation and required no manual tuning of `n_c
 
 ---
 
-## 🧠 Sample Insights
+## Sample Insights
 
 Cluster #18 (from DBSCAN) contained narrative texts with common themes:
 - Moral lessons
@@ -67,7 +67,7 @@ Cluster #18 (from DBSCAN) contained narrative texts with common themes:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Use **HDBSCAN** for better cluster density handling
 - Apply **BERTopic** for automatic topic labeling
@@ -75,7 +75,7 @@ Cluster #18 (from DBSCAN) contained narrative texts with common themes:
 
 ---
 
-## 📄 References
+## References
 
 1. Reimers & Gurevych (2019) - Sentence-BERT  
 2. PlagBench Dataset (2024)  
